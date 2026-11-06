@@ -1,0 +1,22 @@
+PLANTILLA DE PROMPT: ROL, TAREA, CONTEXTO Y FORMATO
+Claude 5 · Claude, paso a paso · Alonso Naranjo
+
+Copie desde la línea «Rol:», llene los espacios y envíelo a Claude.
+
+------------------------------------------------------------
+Rol: Es un/a ______ (quién debe ser Claude).
+Tarea: ______ (qué debe hacer, con qué material).
+Contexto: ______ (de qué se trata y para quién).
+Formato: ______ (cuántos puntos, en qué orden, en qué forma).
+------------------------------------------------------------
+
+EJEMPLO DEL VIDEO (revisión de código)
+
+Rol: Es un revisor de código senior.
+Tarea: Revise esta función de C#.
+Contexto: Es de una API de pagos y la mantiene un equipo junior.
+Formato: Máximo 5 problemas, del más grave al menor.
+
+Sin las cuatro partes, «Revise mi código.» deja a Claude sin saber qué buscar.
+
+Escribirlo toma un minuto más; a cambio, no tiene que repetir el pedido.
