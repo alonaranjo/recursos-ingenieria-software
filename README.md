@@ -1,6 +1,6 @@
 # Recursos de los videos de Alonso Naranjo
 
-Una hoja de apoyo por video: un PDF de una página y, cuando el video trae código o una plantilla, el archivo para copiar.
+Ingeniería de software, para quien programa con IA. Una hoja de apoyo por video: un PDF de una página y, cuando el video trae código o una plantilla, el archivo para copiar.
 
 Alonso Naranjo es desarrollador .NET con más de 10 años de experiencia y va camino a Senior Software Architect. Los videos explican un concepto por vez.
 
@@ -8,14 +8,14 @@ Alonso Naranjo es desarrollador .NET con más de 10 años de experiencia y va ca
 - Instagram: [@alonsonaranjo](https://www.instagram.com/alonsonaranjo/)
 - YouTube: [@alonsonaranjog](https://www.youtube.com/@alonsonaranjog)
 
-## Ingeniería de software, desde cero
+## Software
 
-- Software 11, Qué es código limpio: [PDF](software/011-codigo-limpio/codigo-limpio.pdf) y [código en C#](software/011-codigo-limpio/codigo-limpio.cs)
+- Qué es código limpio: [PDF](software/011-codigo-limpio/codigo-limpio.pdf) y [código en C#](software/011-codigo-limpio/codigo-limpio.cs)
 
-## Claude, paso a paso
+## Claude
 
-- Claude 5, Su primer buen prompt: [PDF](claude/005-prompt-cuatro-partes/prompt-cuatro-partes.pdf) y [plantilla](claude/005-prompt-cuatro-partes/plantilla-prompt.txt)
+- Su primer buen prompt: [PDF](claude/005-prompt-cuatro-partes/prompt-cuatro-partes.pdf) y [plantilla](claude/005-prompt-cuatro-partes/plantilla-prompt.txt)
 
-## Arquitectura, para quien programa con IA
+## Arquitectura
 
-- Arquitectura 3, Qué es la arquitectura de software: [PDF](arquitectura/003-que-es-arquitectura/que-es-arquitectura.pdf)
+- Qué es la arquitectura de software: [PDF](arquitectura/003-que-es-arquitectura/que-es-arquitectura.pdf)
