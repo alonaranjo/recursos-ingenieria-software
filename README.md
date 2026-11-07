@@ -23,6 +23,7 @@ Alonso Naranjo es desarrollador .NET con más de 10 años de experiencia y va ca
 - Qué es un bug: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/software/010-que-es-un-bug/que-es-un-bug.pdf)
 - Qué es código limpio: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/software/011-codigo-limpio/codigo-limpio.pdf) · [código en C#](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/software/011-codigo-limpio/codigo-limpio.cs)
 - Principio DRY: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/software/012-principio-dry/principio-dry.pdf) · [código en C#](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/software/012-principio-dry/principio-dry.cs)
+- Principio KISS: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/software/013-principio-kiss/principio-kiss.pdf) · [código en C#](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/software/013-principio-kiss/principio-kiss.cs)
 
 ## Claude
 
@@ -32,21 +33,27 @@ Alonso Naranjo es desarrollador .NET con más de 10 años de experiencia y va ca
 - La ventana de contexto: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/004-ventana-de-contexto/ventana-de-contexto.pdf)
 - Su primer buen prompt: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/005-prompt-cuatro-partes/prompt-cuatro-partes.pdf) · [plantilla](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/005-prompt-cuatro-partes/plantilla-prompt.txt)
 - Por qué un prompt vago da respuestas vagas: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/006-prompt-vago/prompt-vago.pdf) · [prueba del compañero nuevo](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/006-prompt-vago/prueba-companero-nuevo.txt)
+- Dele ejemplos: el truco de few-shot: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/007-ejemplos-few-shot/ejemplos-few-shot.pdf) · [plantilla](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/007-ejemplos-few-shot/plantilla-few-shot.txt)
 
 ## Arquitectura
 
 - Qué hace realmente un arquitecto de software: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/arquitectura/001-que-hace-realmente-un-arquitecto-de-software/que-hace-realmente-un-arquitecto-de-software.pdf)
 - Arquitecto o senior: qué cambia en el día a día: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/arquitectura/002-arquitecto-o-senior-que-cambia-en-el-dia-a-dia/arquitecto-o-senior-que-cambia-en-el-dia-a-dia.pdf)
 - Qué es la arquitectura de software: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/arquitectura/003-que-es-arquitectura/que-es-arquitectura.pdf)
+- Requisitos funcionales y no funcionales: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/arquitectura/004-requisitos-funcionales-y-no-funcionales/requisitos-funcionales-y-no-funcionales.pdf)
+- Atributos de calidad: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/arquitectura/005-atributos-de-calidad/atributos-de-calidad.pdf)
 
 ## Aprender con IA
 
 - Si la IA lo hace, ¿para qué aprendo?: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/aprender-con-ia/001-si-la-ia-lo-hace-para-que-aprendo/si-la-ia-lo-hace-para-que-aprendo.pdf)
 - Ver algo resuelto no es saber resolverlo: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/aprender-con-ia/002-ver-algo-resuelto-no-es-saber-resolverlo/ver-algo-resuelto-no-es-saber-resolverlo.pdf)
 - La ilusión de «ya lo entendí»: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/aprender-con-ia/003-ilusion-de-ya-lo-entendi/ilusion-de-ya-lo-entendi.pdf) · [texto de revisión](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/aprender-con-ia/003-ilusion-de-ya-lo-entendi/texto-de-revision.txt)
+- Esfuerzo que sirve y esfuerzo que sobra: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/aprender-con-ia/004-esfuerzo-que-sirve-y-esfuerzo-que-sobra/esfuerzo-que-sirve-y-esfuerzo-que-sobra.pdf)
+- Qué se pierde cuando la IA responde al instante: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/aprender-con-ia/005-que-se-pierde-cuando-la-ia-responde-al-instante/que-se-pierde-cuando-la-ia-responde-al-instante.pdf)
 
 ## .NET
 
 - Qué es .NET y qué es C#: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/dotnet/001-que-es-net-y-que-es-csharp/que-es-net-y-que-es-csharp.pdf)
 - Instalar .NET y escribir su primer programa: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/dotnet/002-instalar-net-y-escribir-su-primer-programa/instalar-net-y-escribir-su-primer-programa.pdf)
 - Variables y tipos básicos en C#: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/dotnet/003-variables-y-tipos-basicos/variables-y-tipos-basicos.pdf) · [código en C#](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/dotnet/003-variables-y-tipos-basicos/variables-y-tipos-basicos.cs)
+- Tipos por valor y por referencia: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/dotnet/004-tipos-por-valor-y-por-referencia/tipos-por-valor-y-por-referencia.pdf) · [código en C#](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/dotnet/004-tipos-por-valor-y-por-referencia/tipos-por-valor-y-por-referencia.cs)

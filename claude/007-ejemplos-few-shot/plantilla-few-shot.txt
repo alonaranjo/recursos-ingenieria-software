@@ -1,0 +1,21 @@
+Dele ejemplos a Claude: few-shot
+Ingeniería de software, desde cero · Alonso Naranjo
+
+Few-shot es poner unos cuantos ejemplos en el prompt.
+
+PLANTILLA PARA COPIAR
+--------------------------------------------------
+Escriba el mensaje de commit de mi cambio, con el mismo estilo de los commits de mi equipo.
+
+<example>[commit 1 del historial]</example>
+<example>[commit 2, distinto del primero]</example>
+<example>[commit 3, distinto de los otros]</example>
+
+Mi cambio: [describa el cambio].
+--------------------------------------------------
+
+LAS CUATRO REGLAS (guía de Anthropic)
+1. De tres a cinco ejemplos.
+2. Relevantes: parecidos a su caso real.
+3. Variados: que varíen lo suficiente para que Claude no copie un patrón que usted no quería.
+4. Cada uno entre etiquetas <example>, para que Claude no los confunda con instrucciones.
