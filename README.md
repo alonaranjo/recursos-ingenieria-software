@@ -22,6 +22,7 @@ Alonso Naranjo es desarrollador .NET con más de 10 años de experiencia y va ca
 - Compilado vs interpretado: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/software/009-compilado-vs-interpretado/compilado-vs-interpretado.pdf)
 - Qué es un bug: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/software/010-que-es-un-bug/que-es-un-bug.pdf)
 - Qué es código limpio: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/software/011-codigo-limpio/codigo-limpio.pdf) · [código en C#](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/software/011-codigo-limpio/codigo-limpio.cs)
+- Principio DRY: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/software/012-principio-dry/principio-dry.pdf) · [código en C#](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/software/012-principio-dry/principio-dry.cs)
 
 ## Claude
 
@@ -30,6 +31,7 @@ Alonso Naranjo es desarrollador .NET con más de 10 años de experiencia y va ca
 - Qué son los tokens: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/003-que-son-los-tokens/que-son-los-tokens.pdf)
 - La ventana de contexto: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/004-ventana-de-contexto/ventana-de-contexto.pdf)
 - Su primer buen prompt: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/005-prompt-cuatro-partes/prompt-cuatro-partes.pdf) · [plantilla](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/005-prompt-cuatro-partes/plantilla-prompt.txt)
+- Por qué un prompt vago da respuestas vagas: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/006-prompt-vago/prompt-vago.pdf) · [prueba del compañero nuevo](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/006-prompt-vago/prueba-companero-nuevo.txt)
 
 ## Arquitectura
 
@@ -41,8 +43,10 @@ Alonso Naranjo es desarrollador .NET con más de 10 años de experiencia y va ca
 
 - Si la IA lo hace, ¿para qué aprendo?: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/aprender-con-ia/001-si-la-ia-lo-hace-para-que-aprendo/si-la-ia-lo-hace-para-que-aprendo.pdf)
 - Ver algo resuelto no es saber resolverlo: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/aprender-con-ia/002-ver-algo-resuelto-no-es-saber-resolverlo/ver-algo-resuelto-no-es-saber-resolverlo.pdf)
+- La ilusión de «ya lo entendí»: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/aprender-con-ia/003-ilusion-de-ya-lo-entendi/ilusion-de-ya-lo-entendi.pdf) · [texto de revisión](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/aprender-con-ia/003-ilusion-de-ya-lo-entendi/texto-de-revision.txt)
 
 ## .NET
 
 - Qué es .NET y qué es C#: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/dotnet/001-que-es-net-y-que-es-csharp/que-es-net-y-que-es-csharp.pdf)
 - Instalar .NET y escribir su primer programa: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/dotnet/002-instalar-net-y-escribir-su-primer-programa/instalar-net-y-escribir-su-primer-programa.pdf)
+- Variables y tipos básicos en C#: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/dotnet/003-variables-y-tipos-basicos/variables-y-tipos-basicos.pdf) · [código en C#](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/dotnet/003-variables-y-tipos-basicos/variables-y-tipos-basicos.cs)

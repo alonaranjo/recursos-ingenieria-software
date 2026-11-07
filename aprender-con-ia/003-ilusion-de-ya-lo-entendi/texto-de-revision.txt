@@ -1,0 +1,17 @@
+La ilusión de «ya lo entendí»
+Ingeniería de software, desde cero · Alonso Naranjo
+
+LA PRUEBA DE LA HOJA EN BLANCO
+1. Cierre el chat y el documento.
+2. Explique el tema en voz alta o por escrito durante un minuto, sin mirar. Anote dónde se trabó.
+3. Vuelva al chat y pídale a Claude que revise su explicación con este texto:
+
+--------------------------------------------------
+Esta es mi explicación de [tema]:
+[pegue aquí su explicación]
+
+Dígame qué está bien, qué falta y qué está mal.
+No me dé la explicación completa.
+--------------------------------------------------
+
+Sirve con cualquier IA y con cualquier tema.

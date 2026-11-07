@@ -1,0 +1,22 @@
+Por qué un prompt vago da respuestas vagas
+Ingeniería de software, desde cero · Alonso Naranjo
+
+Claude solo sabe lo que usted escribe. Si no le dice nada, rellena con lo más común.
+
+LA PRUEBA DEL COMPAÑERO NUEVO
+Antes de enviar, imagine que se lo pide a un compañero nuevo que no conoce el proyecto.
+Si con eso no podría responder bien, a Claude tampoco le alcanza. Revise:
+
+1. ¿Para quién es la respuesta?
+2. ¿Qué sé yo que Claude no sabe?
+3. ¿Cómo la necesito (largo, orden, forma)?
+4. ¿Qué no quiero que incluya?
+
+SI NO SABE QUÉ FALTA
+Antes de responder, hágame las preguntas que necesite.
+
+(Responda sus preguntas y vuelva a pedirlo.)
+
+EJEMPLO
+Vago:      Hágame un resumen.
+Con datos: Resuma este correo en tres líneas para mi jefe, que solo necesita saber qué decisión se le pide.
