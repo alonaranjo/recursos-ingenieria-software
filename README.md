@@ -34,6 +34,7 @@ Alonso Naranjo es desarrollador .NET con más de 10 años de experiencia y va ca
 - Su primer buen prompt: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/005-prompt-cuatro-partes/prompt-cuatro-partes.pdf) · [plantilla](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/005-prompt-cuatro-partes/plantilla-prompt.txt)
 - Por qué un prompt vago da respuestas vagas: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/006-prompt-vago/prompt-vago.pdf) · [prueba del compañero nuevo](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/006-prompt-vago/prueba-companero-nuevo.txt)
 - Dele ejemplos: el truco de few-shot: [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/007-ejemplos-few-shot/ejemplos-few-shot.pdf) · [plantilla](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/007-ejemplos-few-shot/plantilla-few-shot.txt)
+- Prompts para programar con Claude (video largo): [PDF](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/005-010-prompts-para-programar/prompts-para-programar.pdf) · [plantillas](https://github.com/alonaranjo/recursos-ingenieria-software/blob/main/claude/005-010-prompts-para-programar/plantillas-de-prompt.txt) · [proyecto de C#](https://github.com/alonaranjo/recursos-ingenieria-software/tree/main/claude/005-010-prompts-para-programar/tienda)
 
 ## Arquitectura
 

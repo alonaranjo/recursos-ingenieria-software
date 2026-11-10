@@ -1,0 +1,53 @@
+PROMPTS PARA PROGRAMAR CON CLAUDE: PLANTILLAS PARA COPIAR
+Hoja de apoyo del video «Prompts para programar con Claude».
+
+1. PARA PEDIR CÓDIGO (las cuatro partes, más lo que falta)
+
+Rol: Es un desarrollador de C# senior.
+Tarea: Escriba el método ______ con esta firma: ______.
+Contexto: ______ (reglas, versión de .NET, sin dependencias).
+Formato: Solo el código, sin explicación.
+
+Después, corra el código y sus pruebas antes de usarlo.
+
+2. PARA REVISAR CÓDIGO
+
+Rol: Es un revisor de código senior.
+Tarea: Revise esta función de C#.
+Contexto: ______ (de qué es y quién la mantiene).
+Formato: Máximo 5 problemas, del más grave al menor.
+
+3. CON EJEMPLOS (few-shot): de 3 a 5, parecidos a su caso, variados, entre <example>
+
+Escriba ______, con el mismo estilo de lo que hace mi equipo:
+
+<example>
+______ (ejemplo 1 de su proyecto)
+</example>
+<example>
+______ (ejemplo 2 de su proyecto)
+</example>
+<example>
+______ (ejemplo 3 de su proyecto)
+</example>
+
+4. PARA VERIFICAR
+
+¿Qué imprime este código en C#? Siga la ejecución línea por línea y verifique su respuesta antes de dármela.
+
+______ (el código)
+
+Y después, corra el código: lo que cierra la duda es la ejecución.
+
+5. PARA PEDIR UN FORMATO EXACTO
+
+Devuelva solo JSON válido: una lista de máximo ___ objetos con los campos ______, ______ y ______. Sin texto antes ni después.
+
+Antes de usar el JSON, valídelo con un validador o un parser.
+
+6. PARA CORREGIR
+
+Está bien: ______.
+Está mal: ______.
+Faltaba: ______.
+Error del compilador: ______ (péguelo entero, con la versión de .NET).
