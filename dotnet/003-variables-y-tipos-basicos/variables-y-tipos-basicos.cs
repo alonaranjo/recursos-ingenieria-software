@@ -1,8 +1,8 @@
-// .NET 3. Variables y tipos básicos en C#
+// .NET 3. Por qué 7 entre 2 da 3 en C# y cómo obtener 3,5
 // Ingeniería de software, desde cero · Alonso Naranjo
 //
-// Una variable es una cajita con un nombre, donde usted guarda un valor.
-// Tiene un tipo, que define qué datos caben en ella.
+// Con dos int, el resultado es un int y el decimal se pierde.
+// Con un número decimal (2.0 o 2m), se conserva.
 
 using System;
 
@@ -10,6 +10,11 @@ class Ejemplo
 {
     static void Main()
     {
+        // La trampa y el arreglo
+        Console.WriteLine(7 / 2);     // 3    (dos int: pierde el decimal)
+        Console.WriteLine(7 / 2.0);   // 3,5  (2.0 es un double)
+        Console.WriteLine(7 / 2m);    // 3,5  (con la plata, ponga la m: decimal)
+
         // Los cinco tipos que más va a usar
         int edad = 30;             // enteros
         double altura = 1.75;      // decimales aproximados
@@ -21,10 +26,6 @@ class Ejemplo
 
         // C# revisa el tipo antes de correr: guardar texto en un int no compila.
         // edad = "hola";   // error CS0029: no se puede convertir implícitamente 'string' en 'int'
-
-        // La trampa: con dos int, la división pierde el decimal
-        Console.WriteLine(7 / 2);     // 3
-        Console.WriteLine(7 / 2.0);   // 3,5
     }
 }
 

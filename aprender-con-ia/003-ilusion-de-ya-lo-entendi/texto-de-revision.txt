@@ -1,10 +1,10 @@
-La ilusión de «ya lo entendí»
+Cómo comprobar en 1 minuto si de verdad entendió lo que leyó
 Ingeniería de software, desde cero · Alonso Naranjo
 
 LA PRUEBA DE LA HOJA EN BLANCO
-1. Cierre el chat y el documento.
-2. Explique el tema en voz alta o por escrito durante un minuto, sin mirar. Anote dónde se trabó.
-3. Vuelva al chat y pídale a Claude que revise su explicación con este texto:
+1. Cierre el chat.
+2. Explíquelo en voz alta, sin mirar, durante un minuto. Donde se trabe, ahí está lo que no sabe.
+3. Pegue su explicación en el chat y pídale a Claude que la revise con este texto:
 
 --------------------------------------------------
 Esta es mi explicación de [tema]:
@@ -14,4 +14,4 @@ Dígame qué está bien, qué falta y qué está mal.
 No me dé la explicación completa.
 --------------------------------------------------
 
-Sirve con cualquier IA y con cualquier tema.
+Dos límites: es una prueba de hoy (no dice que lo recordará dentro de un mes) y la revisión de la IA también puede fallar (contrástela con la documentación).

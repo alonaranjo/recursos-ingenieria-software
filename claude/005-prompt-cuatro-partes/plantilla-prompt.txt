@@ -1,22 +1,39 @@
-PLANTILLA DE PROMPT: ROL, TAREA, CONTEXTO Y FORMATO
+PROMPT PARA QUE CLAUDE DEVUELVA LA CORRECCIÓN LISTA PARA PEGAR
 Claude 5 · Claude, paso a paso · Alonso Naranjo
 
-Copie desde la línea «Rol:», llene los espacios y envíelo a Claude.
+Copie el prompt, pegue su función debajo y envíelo a Claude.
+Después compile cada corrección y pruébela antes de usarla.
 
 ------------------------------------------------------------
-Rol: Es un/a ______ (quién debe ser Claude).
-Tarea: ______ (qué debe hacer, con qué material).
-Contexto: ______ (de qué se trata y para quién).
-Formato: ______ (cuántos puntos, en qué orden, en qué forma).
-------------------------------------------------------------
-
-EJEMPLO DEL VIDEO (revisión de código)
-
 Rol: Es un revisor de código senior.
 Tarea: Revise esta función de C#.
 Contexto: Es de una API de pagos y la mantiene un equipo junior.
-Formato: Máximo 5 problemas, del más grave al menor.
+Formato: Máximo 5 problemas, del más grave al menor. Por cada uno: la línea y la corrección en C# que compile con este código tal como está (solo el cambio; no invente clases, métodos ni parámetros que no estén aquí).
 
-Sin las cuatro partes, «Revise mi código.» deja a Claude sin saber qué buscar.
+[pegue aquí su función]
+------------------------------------------------------------
 
-Escribirlo toma un minuto más; a cambio, no tiene que repetir el pedido.
+LA FRASE QUE IMPORTA
+
+«…que compile con este código tal como está (solo el cambio; no invente clases, métodos ni parámetros que no estén aquí).»
+
+En una prueba sin esa frase, Claude propuso un parámetro idempotencyKey y una clase PagoRechazadoException que no existen en este código. Con la frase, usó solo lo que ya estaba. Son dos corridas (Claude Sonnet 5.5, .NET SDK 7.0.302), no una regla: compile y pruebe cada corrección.
+
+LA FUNCIÓN DEL VIDEO
+
+public decimal CobrarPedido(Pedido pedido, string numeroTarjeta)
+{
+    var total = 0m;
+    foreach (var item in pedido.Items)
+        total += item.Precio * item.Cantidad;
+
+    var resultado = _pasarela.Cobrar(numeroTarjeta, total);
+    _logger.LogInformation("Cobrando " + total + " a la tarjeta " + numeroTarjeta);
+
+    if (resultado == "OK")
+    {
+        pedido.Estado = "PAGADO";
+        _db.SaveChanges();
+    }
+    return total;
+}
